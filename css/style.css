@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* Style guide font start */
+
+.primary-font{
+    font-size: 24px;
+}
+
+.primary-big{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 20px;
+}
+
+.secondary-big{
+    font-size: 30px;
+}
+
+.secondary-bold-font{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 45px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+
+
+
+/* Style guide color start */
+
+.primary-color{
+    color: #1D65C1;
+}
+
+.primary-color-bg{
+    background-color: #1D65C1;
+}
+
+
+.primary-color-hover{
+    color: #2987FF;
+}
+
+.primary-color-hover-bg{
+    background-color: #2987FF;
+}
+
+.secondary-color{
+    color: #344854;
+}
+
+.secondary-color-bg{
+    background-color: #344854;
+}
+
+.secondary-color-hover{
+    color: #4D6A7C;
+}
+
+
+.secondary-color-hover-bg{
+    background-color: #4D6A7C;
+}
+
+.teritory-color{
+    color: #FFFFFF;
+}
+
+.teritory-color-bg{
+    background-color: #FFFFFF;
+}
+
+
+.teritory-color-hover{
+    color: #D9D9D9;
+}
+
+
+.teritory-color-hover-bg{
+    background-color: #D9D9D9;
+}
+
+.background-color{
+    background-color: #ECECEC;
+}
+
+
+/* Style guide color end */
+
+
+
+
+
+/* Nav bar start */
+
+/* section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-bottom: solid rgba(0, 0, 0, 0.197);
+}
+
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 151px;
+    padding: 40px 70px;
+    /* background-color: antiquewhite; */
+}
+
+
+
+nav ul{
+    display: flex;
+    gap: 82px;
+}
+
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+nav .button-container{
+    display: flex;
+    gap: 57px;
+}
+
+
+nav .button-container .one{
+    padding: 10px 23px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;   
+}
+
+nav .button-container .one:hover{
+    background-color: #4D6A7C;
+}
+
+
+nav .button-container .two{
+    padding: 10px 23px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;   
+}
+
+
+nav .button-container .two:hover{
+    background-color: #2987FF;
+}
+
+/* Nav bar end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer start */
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .total-container{
+    width: 1132px;
+    height: auto;
+    padding-top: 52px;
+    padding-bottom: 116px;
+    display: flex;
+    gap: 34.5px;
+}
+
+footer .container-one{
+    width: 296px;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .container-one .paragraph-container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .container-five .icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer .container-five .icons .instagram img, footer .container-five .icons .facebook img{
+    width: 32px;
+    height: 32px;
+}
+
+footer .container-five .icons .youtube img{
+    width: 32px;
+    height: 25px;
+}
+
+
+footer .container-two{
+    width: 177px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+footer .container-two ul{
+    display: flex;
+    flex-direction: column  ;
+    gap: 18px;
+}
+
+footer .container-two ul li{
+    list-style: none;
+
+}
+
+
+footer .container-three{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .container-three ul li{
+    list-style: none;
+
+}
+
+footer .container-three ul{
+    display: flex;
+    flex-direction: column  ;
+    gap: 18px;
+}
+
+
+
+footer .container-four{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .container-four ul li{
+    list-style: none;
+
+}
+
+footer .container-four ul{
+    display: flex;
+    flex-direction: column  ;
+    gap: 18px;
+}
+
+footer .container-five{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .container-five img{
+    width: 159px;
+    height: 42px;
+}
+
+
+
+
+
+
+
+/* Footer end */
+

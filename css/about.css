@@ -1,0 +1,283 @@
+/* section one start */
+
+.section-one{
+    width: 100%;
+    height: 653px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 129px;
+    /* background-color: antiquewhite; */
+}
+
+.section-one .left-container{
+    width: 631px;
+    height: 372px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.section-one .left-container button{
+    width: 220px;
+    height: 64px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.section-one .left-container button:hover{
+    background-color: #2987FF;
+}
+
+.section-one .right-container{
+    width: 533px;
+    height: 493px;
+}
+
+
+.section-one .right-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* section one end */
+
+
+
+/* section two start */
+
+.section-two{
+    width: 100%;
+    height: 584px;
+    background-image: url('../images/About/section-two/bg-image.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 293px;
+}
+
+
+.section-two .first{
+    width: 276px;
+    height: 337px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.section-two .first img{
+    width: 100%;
+    height: 231px;
+}
+
+.section-two .second{
+    width: 190px;
+    height: 337px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.section-two .second img{
+    width: 100%;
+    height: 248px;
+}
+
+.section-two .third{
+    width: 246px;
+    height: 337px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   
+}
+
+.section-two .third img{
+    width: 100%;
+    height: 244px;
+}
+
+/* section two end */
+
+
+
+
+/* section three start */
+
+.section-three{
+    width: 100%;
+    height: 683px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.section-three .left-container{
+    width: 721px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    align-items: start;
+    justify-content: start;
+    margin: 160 0 160 100;
+    
+}
+
+
+.section-three .right-container{
+    width: 523px;
+    height: 523px;
+    margin: 80 71 80 0;
+}
+
+.section-three .right-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* section three end */
+
+
+
+/* section four start */
+
+.section-four{
+    width: 100%;
+    height: 683px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    /* background-color: yellowgreen; */
+}
+
+
+.section-four .left-container{
+    width: 523px;
+    height: 523px;
+}
+
+.section-four .left-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-four .right-container{
+    width: 721px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    text-align: end;
+    gap: 31px;
+}
+
+/* section four end */
+
+
+/* section five start */
+
+.section-five{
+    width: 100%;
+    height: 683px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.section-five .left-container{
+    width: 721px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    align-items: start;
+    justify-content: start;
+    margin: 160 0 160 100;
+    
+}
+
+
+.section-five .right-container{
+    width: 523px;
+    height: 523px;
+    margin: 80 71 80 0;
+}
+
+.section-five .right-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* section five end */
+
+/* section six start */
+
+.section-six{
+    width: 100%;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.section-six .top-container{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-six .top-container h1{
+    width: 100%;
+    height: 100%;
+}
+
+.section-six .bottom-container{
+    width: 1200px;
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+.section-six .bottom-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* section six end */
