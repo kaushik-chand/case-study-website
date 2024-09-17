@@ -9,6 +9,41 @@
 
 
 
+/* resp nav bar start */
+
+/* burger start */
+section header nav #Burger{
+    display: none;
+}
+
+section header nav label{
+    display: none;
+    font-size: 24px;
+}
+
+/* burger end */
+
+/* profile start */
+
+section header nav .profile{
+    display: none;
+}
+
+section header nav #profile{
+    display: none;
+}
+
+
+
+/* profile end */
+
+
+
+
+/* resp nav bar end */
+
+
+
 /* Style guide font start */
 
 .primary-font{
@@ -142,6 +177,11 @@ header{
     border-bottom: solid rgba(0, 0, 0, 0.197);
 }
 
+header nav .first{
+    display: flex;
+    gap: 30px;
+}
+
 
 nav{
     width: 100%;
@@ -149,8 +189,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 151px;
+    /* gap: 151px; */
     padding: 40px 70px;
+    position: relative;
     /* background-color: antiquewhite; */
 }
 
@@ -172,6 +213,7 @@ nav ul li a{
 
 
 nav .button-container{
+    position: relative;
     display: flex;
     gap: 57px;
 }
@@ -229,22 +271,25 @@ footer{
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 footer .total-container{
-    width: 1132px;
+    width: 100%;
     height: auto;
     padding-top: 52px;
     padding-bottom: 116px;
     display: flex;
+    /* flex-direction: column; */
     gap: 34.5px;
+    padding-left: 308px;
 }
 
 footer .container-one{
-    width: 296px;
-    height: 323px;
+    width: 20.5%;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -274,7 +319,7 @@ footer .container-five .icons .youtube img{
 
 
 footer .container-two{
-    width: 177px;
+    width: 12.2%;
     height: 234px;
     display: flex;
     flex-direction: column;
@@ -341,11 +386,713 @@ footer .container-five img{
     height: 42px;
 }
 
-
-
-
-
-
+footer .copyright-container{
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
 
 /* Footer end */
+
+
+
+/* media query start */
+
+
+@media (max-width:1360px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 22px;
+}
+
+.primary-big{
+    font-size: 66px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 16px;
+}
+
+.secondary-big{
+    font-size: 26px;
+}
+
+.secondary-bold-font{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 40px;
+    font-weight: 500;
+}
+}
+/* Style guide font end */
+
+
+
+@media (max-width:1300px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 20px;
+}
+
+.primary-big{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 14px;
+}
+
+.secondary-big{
+    font-size: 22px;
+}
+
+.secondary-bold-font{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 38px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+
+}
+
+
+
+
+
+@media (max-width:1260px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 20px;
+}
+
+.primary-big{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 14px;
+}
+
+.secondary-big{
+    font-size: 20px;
+}
+
+.secondary-bold-font{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 34px;
+    font-weight: 500;
+}
+}
+/* Style guide font end */
+
+
+
+
+@media (max-width:1120px)
+{
+
+    /* resp nav bar start */
+
+    nav ul{
+        width: 95%;
+        height: auto;
+        padding: 50px 0px;
+        top: 102%;
+        left: -100%;
+        padding-left: 5%;
+        position: absolute;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        transition-duration: 0.7s;
+        background-color: rgb(236,236,236);
+    } 
+
+    section header nav label{
+        display: block;
+    }
+
+    nav #Burger:checked ~ ul{
+        left: 0%;
+    }
+
+    nav .button-container{
+        gap: 47px;
+    }
+
+    footer .total-container{
+        flex-direction: column;
+    }
+
+    /* resp nav bar end */
+
+
+
+
+    /* Style guide font start */
+
+
+    
+
+.primary-font{
+    font-size: 20px;
+}
+
+.primary-big{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 20px;
+}
+
+.secondary-big{
+    font-size: 20px;
+}
+
+.secondary-bold-font{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 30px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+
+}
+
+@media (max-width:1000px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 20px;
+}
+
+.primary-big{
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 24px;
+}
+
+.secondary-big{
+    font-size: 20px;
+}
+
+.secondary-bold-font{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 28px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+
+}
+
+
+@media (max-width:900px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 20px;
+}
+
+.primary-big{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 22px;
+}
+
+.secondary-big{
+    font-size: 20px;
+}
+
+.secondary-bold-font{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 24px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+
+nav .button-container{
+    gap: 30px;
+}
+
+
+}
+
+
+
+@media (max-width:800px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 20px;
+}
+
+.primary-big{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 20px;
+}
+
+.secondary-big{
+    font-size: 20px;
+}
+
+.secondary-bold-font{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 22px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+
+nav .button-container{
+    gap: 25px;
+}
+
+
+nav .button-container .one{
+    padding: 8px 20px;
+}
+
+
+}
+
+@media (max-width:700px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 20px;
+}
+
+.primary-big{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 20px;
+}
+
+.secondary-big{
+    font-size: 20px;
+}
+
+.secondary-bold-font{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 22px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+
+nav .button-container{
+    gap: 25px;
+}
+
+
+nav .button-container .one{
+    padding: 8px 20px;
+}
+
+
+}
+
+
+
+@media (max-width:600px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 20px;
+}
+
+.primary-big{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 18px;
+}
+
+.secondary-big{
+    font-size: 20px;
+}
+
+.secondary-bold-font{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 22px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+nav .button-container{
+    gap: 20px;
+}
+
+
+/* resp nav start  */
+
+/* nav{
+    justify-content: start;
+    gap: 30px;
+} */
+
+nav .button-container{
+    display: none;
+    width: auto;
+    height: 100px;
+    padding: 30px 10px;
+    position: absolute;
+    flex-direction: column;
+    right: 5%;
+    bottom: 100%;
+    transition-duration: 0.7s;
+    background-color: rgb(236, 236, 236);
+}
+
+section header nav .profile{
+    display: block;
+}
+
+nav #profile:checked ~ .button-container{
+    display: flex;
+    top: 100%;
+}
+
+
+/* resp nav end  */
+
+
+
+}
+
+
+@media (max-width:500px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 18px;
+}
+
+.primary-big{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 16px;
+}
+
+.secondary-big{
+    font-size: 20px;
+}
+
+.secondary-bold-font{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+nav .button-container{
+    gap: 15px;
+}
+
+
+}
+
+
+
+
+@media (max-width:400px)
+{
+    /* Style guide font start */
+
+.primary-font{
+    font-size: 16px;
+}
+
+.primary-big{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 16px;
+}
+
+.secondary-big{
+    font-size: 20px;
+}
+
+.secondary-bold-font{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+nav .button-container{
+    gap: 10px;
+}
+}
+
+@media (max-width:375px){
+    nav{
+        width: 320px;
+        justify-content: center; 
+        gap: 50px;       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query end */
 
