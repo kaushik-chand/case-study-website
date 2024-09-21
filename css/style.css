@@ -213,7 +213,7 @@ nav ul li a{
 
 
 nav .button-container{
-    position: relative;
+    position: relative; 
     display: flex;
     gap: 57px;
 }
@@ -277,14 +277,14 @@ footer{
 }
 
 footer .total-container{
-    width: 100%;
+    width: 70%;
     height: auto;
     padding-top: 52px;
     padding-bottom: 116px;
     display: flex;
     /* flex-direction: column; */
     gap: 34.5px;
-    padding-left: 308px;
+    /* padding-left: 250px; */
 }
 
 footer .container-one{
@@ -387,7 +387,8 @@ footer .container-five img{
 }
 
 footer .copyright-container{
-    width: auto;
+    width: 80%;
+    text-align: center;
     height: auto;
     padding-bottom: 20px;
 }
@@ -589,7 +590,30 @@ footer .copyright-container{
     }
 
     footer .total-container{
-        flex-direction: column;
+        width: 90%;
+        flex-wrap: wrap;
+        padding-left: 30px;
+
+    }
+
+    footer .container-one{
+        width: 40%;
+    }
+
+    footer .container-two{
+        width: 40%;
+    }
+
+    footer .container-three{
+        width: 40%;
+    }
+
+    footer .container-four{
+        width: 40%;
+    }
+
+    footer .container-five{
+        width: 40%;
     }
 
     /* resp nav bar end */
@@ -923,6 +947,7 @@ nav .button-container .one{
     font-size: 22px;
     font-weight: 500;
 }
+
 /* Style guide font end */
 
 nav .button-container{
@@ -942,10 +967,10 @@ nav .button-container{
     width: auto;
     height: 100px;
     padding: 30px 10px;
-    position: absolute;
+    position: absolute; 
     flex-direction: column;
     right: 5%;
-    bottom: 100%;
+    top: -100%;
     transition-duration: 0.7s;
     background-color: rgb(236, 236, 236);
 }
@@ -956,8 +981,35 @@ section header nav .profile{
 
 nav #profile:checked ~ .button-container{
     display: flex;
-    top: 100%;
+    top: 102%;
 }
+
+footer .total-container{
+    width: 85%;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+/* footer .container-one{
+    width: 30%;
+}
+
+footer .container-two{
+    width: 30%;
+}
+
+footer .container-three{
+    width: 30%;
+}
+
+footer .container-four{
+    width: 30%;
+}
+
+footer .container-five{
+    width: 30%;
+} */
 
 
 /* resp nav end  */
@@ -1077,10 +1129,17 @@ nav .button-container{
 }
 
 @media (max-width:375px){
+    header{
+        width: 98%;
+        /* overflow: hidden; */
+        /* justify-content: center; */
+    }
+
     nav{
-        width: 320px;
-        justify-content: center; 
-        gap: 50px;       
+        width: 100%;
+        padding: 40px 40px;
+        justify-content: space-between;
+        /* gap: 50px;  */
     }
 }
 
