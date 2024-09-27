@@ -467,7 +467,7 @@
 
 
     .section-one .total-container .left-container{
-        width: 100%;
+        width: 80%;
     }
 
     .section-one .total-container .left-container button{
@@ -482,11 +482,17 @@
     
     .section-three{
         margin-bottom: 60px;
+        gap: 80px;
     }
     
     .section-three .left-container{
         width: 70%;
-        /* height: 400px; */
+        /* height: auto;     */
+    }
+
+    .section-three .right-container{
+        width: 80%;
+        height: auto;
     }
     .section-three .left-container{
         height: 400px;
@@ -494,6 +500,7 @@
     
     .section-four{
         margin-bottom: 60px;
+        gap: 0px;
     }
     
     .section-four .right-container{
@@ -527,8 +534,13 @@
         width: 90%;
     }
 
+    .section-one .total-container .left-container{
+        width: 90%;
+    }
+
     .section-three{
         margin-bottom: 30px;
+        gap: 20px;
     }
 
     .section-three .left-container{

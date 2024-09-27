@@ -274,13 +274,14 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 footer .total-container{
     width: 70%;
     height: auto;
     padding-top: 52px;
-    padding-bottom: 116px;
+    padding-bottom: 60px;
     display: flex;
     /* flex-direction: column; */
     gap: 34.5px;
@@ -561,12 +562,13 @@ footer .copyright-container{
     /* resp nav bar start */
 
     nav ul{
-        width: 95%;
+        width: auto;
         height: auto;
         padding: 50px 0px;
         top: 102%;
-        left: -100%;
-        padding-left: 5%;
+        left: -130%;
+        padding-left: 7%;
+        padding-right: 84%;
         position: absolute;
         display: flex;
         gap: 40px;
@@ -724,7 +726,15 @@ footer .copyright-container{
 
 
 @media (max-width:900px)
+
 {
+
+
+    nav ul{
+        padding-left: 8%;
+        padding-right: 82%;
+        
+    }
     /* Style guide font start */
 
 .primary-font{
@@ -842,6 +852,11 @@ nav .button-container .one{
 
 @media (max-width:700px)
 {
+
+    nav ul{
+        padding-left: 10%;
+        padding-right: 77%;
+    }
     /* Style guide font start */
 
 .primary-font{
@@ -904,6 +919,18 @@ nav .button-container .one{
 
 @media (max-width:600px)
 {
+    nav{
+        width: 100%;
+        padding: 40px 40px;
+        justify-content: space-between;
+        /* gap: 50px;  */
+    }
+
+
+    nav ul{
+        padding-left: 7%;
+        padding-right: 81%;
+    }
     /* Style guide font start */
 
 .primary-font{
@@ -966,10 +993,10 @@ nav .button-container{
     display: none;
     width: auto;
     height: 100px;
-    padding: 30px 10px;
+    padding: 30px 30px;
     position: absolute; 
     flex-direction: column;
-    right: 5%;
+    right: 0%;
     top: -100%;
     transition-duration: 0.7s;
     background-color: rgb(236, 236, 236);
@@ -1021,6 +1048,14 @@ footer .container-five{
 
 @media (max-width:500px)
 {
+
+
+    nav ul{
+        padding-left: 8%;
+        padding-right: 80%;
+    }
+
+
     /* Style guide font start */
 
 .primary-font{
@@ -1057,7 +1092,7 @@ footer .container-five{
 }
 
 .teritory-font{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .card-big-font{
@@ -1078,6 +1113,20 @@ nav .button-container{
 
 @media (max-width:400px)
 {
+
+
+    nav .button-container{
+        padding: 10px 20px;
+    }
+    
+
+    
+    nav ul{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 11%;
+        padding-right: 78%;
+    }
     /* Style guide font start */
 
 .primary-font{
@@ -1114,7 +1163,7 @@ nav .button-container{
 }
 
 .teritory-font{
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .card-big-font{
