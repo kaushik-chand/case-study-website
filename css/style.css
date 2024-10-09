@@ -72,6 +72,7 @@ section header nav #profile{
 
 .secondary-big{
     font-size: 30px;
+    font-weight: 600;
 }
 
 .secondary-bold-font{
@@ -148,6 +149,11 @@ section header nav #profile{
 
 .background-color{
     background-color: #ECECEC;
+}
+
+
+.price-bg{
+    background-color: #E4E4E4;
 }
 
 
@@ -314,8 +320,8 @@ footer .container-five .icons .instagram img, footer .container-five .icons .fac
 }
 
 footer .container-five .icons .youtube img{
-    width: 32px;
-    height: 25px;
+    width: auto;
+    height: 32px;
 }
 
 
@@ -339,6 +345,10 @@ footer .container-two ul li{
 
 }
 
+footer .container-two ul a{
+    text-decoration: none;
+}
+
 
 footer .container-three{
     display: flex;
@@ -355,6 +365,10 @@ footer .container-three ul{
     display: flex;
     flex-direction: column  ;
     gap: 18px;
+}
+
+footer .container-three ul a{
+    text-decoration: none;
 }
 
 
@@ -375,6 +389,11 @@ footer .container-four ul{
     flex-direction: column  ;
     gap: 18px;
 }
+
+footer .container-four ul a{
+    text-decoration: none;
+}
+
 
 footer .container-five{
     display: flex;

@@ -482,7 +482,7 @@
     
     .section-three{
         margin-bottom: 60px;
-        gap: 80px;
+        gap: 20px;
     }
     
     .section-three .left-container{
@@ -540,6 +540,10 @@
 
     .section-three{
         margin-bottom: 30px;
+        gap: 20px;
+    }
+
+    .section-four{
         gap: 20px;
     }
 
