@@ -1,3 +1,10 @@
+body{
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+
+
 /* section one start */
 .section-one {
     width: 100%;
@@ -478,11 +485,11 @@
 }
 
 .section-four .bottom-container .second .bottom .two {
-    width: 300px;
+    width: 250px;
     height: 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .section-four .bottom-container .second .bottom .two button {
@@ -730,9 +737,10 @@
     }
 
     .section-four .bottom-container .second .bottom {
-        width: auto;
+        width: 80%;
         height: auto;
-        padding: 30px 20px 30px 20px;
+        align-items: start;
+        padding: 30px 0px 30px 0px;
 
     }
 
@@ -864,6 +872,17 @@
 @media (max-width:750px) {
 
 
+    .section-one{
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+
+
+    .section-one .right-container{
+        width: 70%;
+    }
+
+
     .section-two {
         padding: 50px 0px;
         flex-direction: column;
@@ -939,6 +958,11 @@
 
 @media (max-width:550px){
 
+
+    .section-one{
+        margin-bottom: 70px;
+    }
+
     .section-two{
         gap: 30px;
     }
@@ -966,9 +990,22 @@
 @media (max-width:400px){
 
 
+    .section-one{
+        margin-bottom: 50px;
+    }
+
+
     /* .section-four .bottom-container .second .bottom {
         width: 90%;
     } */
+
+
+    .section-four{
+        /* width: 100%;
+        padding: 0px 0px;
+        margin: 0px 0px; */
+        overflow: hidden;
+    }
 
     .section-four .bottom-container .first .one {
         width: 80%;
@@ -1021,9 +1058,9 @@
         align-items: start;
     }
 
-    .section-four .bottom-container .second .bottom .one {
+    /* .section-four .bottom-container .second .bottom .one {
         padding-left: 30px;
-    }
+    } */
 
     .section-four .bottom-container .second .three {
         width: auto;

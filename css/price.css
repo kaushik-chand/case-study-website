@@ -2,7 +2,8 @@
     width: auto;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 50px;
@@ -23,11 +24,13 @@
 
 /* section two start */
 .section-two {
-    width: 96.5%;
+    /* margin-top: 50px; */
+    width: 500px;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 128px;
     padding: 80px 0px 80px 0px;
     background-color: #E4E4E4;
@@ -36,8 +39,8 @@
 
 
 .section-two .left-container {
-    width: 36.3%;
-    height: 36.3%;
+    width: 80%;
+    height: 80%;
 }
 
 
@@ -48,7 +51,7 @@
 
 
 .section-two .right-container {
-    width: 41.5%;
+    width: 80%;
     height: 36%;
     display: flex;
     flex-direction: column;
@@ -142,24 +145,25 @@
 
 /* section three start */
 
-
 .section-three {
-    width: 96.5%;
+    margin-top: 50px;
+    width: 500px;
     height: auto;
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 128px;
     padding: 80px 0px 80px 0px;
     background-color: #E4E4E4;
     border-radius: 50px;
+    margin: 50px 0px;
 }
 
 
 .section-three .left-container {
-    width: 36.3%;
-    height: 36.3%;
+    width: 80%;
+    height: 80%;
 }
 
 
@@ -170,13 +174,12 @@
 
 
 .section-three .right-container {
-    width: 41.5%;
+    width: 80%;
     height: 36%;
     display: flex;
     flex-direction: column;
     gap: 53px;
 }
-
 
 .section-three .top-container {
     width: 100%;
@@ -266,12 +269,12 @@
 
 /* section four start */
 .section-four {
-    width: 96.5%;
+    width: 74%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 128px;
+    gap: 80px;
     padding: 80px 0px 80px 0px;
     background-color: #E4E4E4;
     border-radius: 50px;
@@ -279,14 +282,14 @@
 
 
 .section-four .left-container {
-    width: 36.3%;
-    height: 36.3%;
+    width: 40%;
+    height: 70%;
 }
 
 
 .section-four .left-container img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 
@@ -462,12 +465,15 @@
 @media (max-width:1200px) {
 
 
-    .main-container{
+    .main-container {
         gap: 30px;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     .section-two {
-        width: 85%;
+        margin: 60px 0px;
+        width: 500px;
         flex-direction: column;
         gap: 50px;
     }
@@ -481,7 +487,8 @@
     }
 
     .section-three {
-        width: 85%;
+        margin: 60px 0%;
+        width: 500px;
         flex-direction: column;
         gap: 50px;
     }
@@ -496,7 +503,8 @@
     }
 
     .section-four {
-        width: 85%;
+        margin: 60px 0%;
+        width: 500px;
         flex-direction: column;
         gap: 50px;
     }
@@ -530,45 +538,51 @@
 
 @media (max-width: 600px) {
 
-    .main-container{
+    .main-container {
         gap: 20px;
     }
 
-    .section-one{
+    .section-one {
         height: 100px;
     }
 
-    .section-two{
-        gap: 40px;
+    .section-two {
+        width: 85%;
         padding: 50px 0px;
+        gap: 40px;
+        margin: 50px 0px;
     }
-    
+
     .section-two .right-container .top-container {
         gap: 30px;
     }
-    
+
     .section-two .right-container {
         width: 80%;
         gap: 30px;
     }
-    
-    .section-three{
-            padding: 50px 0px;
-            gap: 40px;
-        }
-        
-        .section-three .right-container {
-            width: 80%;
-            gap: 30px;
-        }
-        
-        .section-three .right-container .top-container {
-            gap: 30px;
-        }
-        
-        .section-four{
-            padding: 50px 0px;
+
+    .section-three {
+        width: 85%;
+        padding: 50px 0px;
         gap: 40px;
+        margin: 50px 0px;
+    }
+
+    .section-three .right-container {
+        width: 80%;
+        gap: 30px;
+    }
+
+    .section-three .right-container .top-container {
+        gap: 30px;
+    }
+
+    .section-four {
+        width: 85%;
+        padding: 50px 0px;
+        gap: 40px;
+        margin: 50px 0px;
     }
 
     .section-four .right-container {
@@ -580,22 +594,22 @@
         gap: 30px;
     }
 
-    .section-five .container-two{
+    .section-five .container-two {
         display: flex;
         flex-direction: column;
         gap: 35px;
     }
 
-    .section-five{
+    .section-five {
         width: 90%;
         gap: 30px;
         margin-top: 90px;
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
 
-    .section-two{
+    .section-two {
         padding: 30px 0px;
     }
 
@@ -603,11 +617,13 @@
         width: 80%;
         gap: 20px;
     }
-.section-three .right-container {
+
+    .section-three .right-container {
         width: 80%;
         gap: 20px;
     }
-.section-four .right-container {
+
+    .section-four .right-container {
         width: 80%;
         gap: 20px;
     }
