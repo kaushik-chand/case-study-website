@@ -126,7 +126,7 @@ body{
 
 .section-three {
     width: 100%;
-    height: 606px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,12 +135,13 @@ body{
 
 .section-three .total-container {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 70px;
+    gap: 50px;
+    margin: 50px 0px;
 }
 
 .section-three .top-container {
@@ -246,13 +247,14 @@ body{
 
 .section-four {
     width: 100%;
-    height: 777px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 70px;
-    padding-bottom: 50px;
+    gap: 50px;
+    /* padding-bottom: 50px; */
+    margin: 50px 0px;
 }
 
 
@@ -665,7 +667,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .section-four .sub-bottom-container .fa-magnifying-glass-arrow-right {
@@ -711,7 +713,7 @@ body{
     .section-one {
         height: auto;
         flex-direction: column-reverse;
-        gap: 100px;
+        gap: 60px;
         padding: 80px 0px 80px 0px;
     }
 
@@ -732,6 +734,7 @@ body{
     }
 
     .section-three .bottom-container {
+        height: auto;
         width: 80%;
         gap: 50px;
     }
@@ -814,8 +817,14 @@ body{
 @media (max-width: 1120px) {
 
 
+
+
+
     .section-four {
         height: auto;
+        gap: 50px;
+        margin: 70px 0px;
+
     }
 
     .section-four .bottom-container {
@@ -920,7 +929,12 @@ body{
 
 
     .section-three {
+        margin: 80px 0px;
         height: auto;
+    }
+
+    .section-three .total-container {
+        gap: 10px;
     }
 
 
@@ -945,13 +959,13 @@ body{
         width: 70%;
     }
 
-    .section-three {
+    /* .section-three {
         padding: 50px 0px;
-    }
+    } */
     
-    .section-four{
+    /* .section-four{
         padding: 50px 0px;
-    }
+    } */
 
 }
 
@@ -983,6 +997,15 @@ body{
     .section-two .third img {
         width: auto;
         height: 150px;
+    }
+
+    .section-three{
+        margin: 30px 0px;
+    }
+
+
+    .section-three .total-container {
+        gap: 0px;
     }
 }
 
