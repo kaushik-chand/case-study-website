@@ -281,6 +281,7 @@ footer{
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
+    gap: 50px;
 }
 
 footer .total-container{
@@ -326,7 +327,7 @@ footer .container-five .icons .youtube img{
 
 
 footer .container-two{
-    width: 12.2%;
+    width: auto;
     height: 234px;
     display: flex;
     flex-direction: column;
